@@ -1,0 +1,4 @@
+# To-Do-ver-2.0
+version 2.0
+Fully automated GSC
+Just kidding. Done this myself. Will improve.
