@@ -11,9 +11,15 @@
     <div><h1>To Do List</h1>
     <h5>version 2.0</h5></div>
     <div class='button'><input value="Add a new To Do" onclick=userAdd() type="button"></div>
-    <div id='list'><ol id="ol">
-        <li>Groceries</li>
-      </ol>
-    </div>
-    </body>
+    <div id='container'>
+        <div id='list'>
+            <ol id="ol">
+                <li>Groceries</li>
+            </ol>
+        </div>
+        <div class='buttons'><input value="&#x270E;" onclick=editToDo() type="button">
+        <input value="&#x21E7;" onclick=editToDo() type="button">
+        <input value="&#x21E9;" onclick=editToDo() type="button">
+        <input value="x" onclick=editToDo() type="button"></div>
+</body>
 </html>
